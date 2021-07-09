@@ -14,7 +14,7 @@
         <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
             <div class="text-center">
             <p class="message"> {{ session('message') }} </p>
-                <a href="/pizzas/create">Order a Pizza</a>
+                <a href="{{ route('pizzas.create') }}">Order a Pizza</a>
             </div>
         </div>
 
